@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	"github.com/rm4n0s/collabeek/hr/db"
+	"github.com/rm4n0s/collabeek/servers/hr/db"
 )
 
 type ServerInput struct {

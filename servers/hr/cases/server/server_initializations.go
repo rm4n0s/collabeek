@@ -8,9 +8,9 @@ import (
 	"log"
 	"text/template"
 
-	"github.com/rm4n0s/collabeek/common"
-	"github.com/rm4n0s/collabeek/hr/db"
-	emailtemplates "github.com/rm4n0s/collabeek/hr/email_templates"
+	"github.com/rm4n0s/collabeek/servers/common"
+	"github.com/rm4n0s/collabeek/servers/hr/db"
+	emailtemplates "github.com/rm4n0s/collabeek/servers/hr/email_templates"
 )
 
 func initializeAdmin(ctx context.Context, idb InitializationDB, smtp common.ISmtpService, adminEmail string) {

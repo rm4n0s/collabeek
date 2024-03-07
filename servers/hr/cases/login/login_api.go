@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
-	"github.com/rm4n0s/collabeek/common"
-	"github.com/rm4n0s/collabeek/hr/db"
+	"github.com/rm4n0s/collabeek/servers/common"
+	"github.com/rm4n0s/collabeek/servers/hr/db"
 )
 
 func NewLoginHandler(db LoginDB, tokenSecret string) *LoginHandler {

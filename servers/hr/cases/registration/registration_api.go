@@ -7,9 +7,9 @@ import (
 	"text/template"
 
 	"github.com/labstack/echo/v4"
-	"github.com/rm4n0s/collabeek/common"
-	"github.com/rm4n0s/collabeek/hr/db"
-	emailtemplates "github.com/rm4n0s/collabeek/hr/email_templates"
+	"github.com/rm4n0s/collabeek/servers/common"
+	"github.com/rm4n0s/collabeek/servers/hr/db"
+	emailtemplates "github.com/rm4n0s/collabeek/servers/hr/email_templates"
 )
 
 func NewRegistrationHandler(db RegistrationDB, smtpService common.ISmtpService) *RegistrationHandler {

@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/joho/godotenv"
-	"github.com/rm4n0s/collabeek/hr/cases/server"
+	"github.com/rm4n0s/collabeek/servers/hr/cases/server"
 )
 
 func main() {

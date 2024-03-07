@@ -8,12 +8,12 @@ import (
 
 	echojwt "github.com/labstack/echo-jwt/v4"
 	"github.com/labstack/echo/v4"
-	"github.com/rm4n0s/collabeek/common"
-	createmember "github.com/rm4n0s/collabeek/hr/cases/create_member"
-	isauthenticated "github.com/rm4n0s/collabeek/hr/cases/is_authenticated"
-	"github.com/rm4n0s/collabeek/hr/cases/login"
-	"github.com/rm4n0s/collabeek/hr/cases/registration"
-	"github.com/rm4n0s/collabeek/hr/db"
+	"github.com/rm4n0s/collabeek/servers/common"
+	createmember "github.com/rm4n0s/collabeek/servers/hr/cases/create_member"
+	isauthenticated "github.com/rm4n0s/collabeek/servers/hr/cases/is_authenticated"
+	"github.com/rm4n0s/collabeek/servers/hr/cases/login"
+	"github.com/rm4n0s/collabeek/servers/hr/cases/registration"
+	"github.com/rm4n0s/collabeek/servers/hr/db"
 )
 
 func NewHrCollabeekEchoServer(input ServerInput) (*echo.Echo, error) {

@@ -1,4 +1,4 @@
-module github.com/rm4n0s/collabeek
+module github.com/rm4n0s/collabeek/servers
 
 go 1.22
 
